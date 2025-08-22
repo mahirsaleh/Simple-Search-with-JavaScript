@@ -1,0 +1,147 @@
+@media (max-width: 699px) {
+    :root {
+        --body-column-minmax: 250px, 1fr ;
+    }
+}
+
+@media (max-width: 659px) {
+    * {
+        font-size: 20px ;
+    }
+
+    :root {
+        --input-max-width: 450px ;
+
+        --body-grid-gap: 10px ;
+        --body-padding: 10px ;
+
+        --card-padding: 8px ;
+    }
+}
+
+@media (max-width: 529px) {
+    * {
+        font-size:  19px ;
+    }
+    :root {
+        --body-column-minmax: 230px, 1fr ;
+        --body-grid-gap: 8px ;
+        --body-padding: 10px 8px ;
+    }
+}
+
+@media (max-width: 499px) {
+    * {
+        font-size: 17px;
+    }
+
+    :root {
+        --input-max-width: 350px ;
+
+        --body-grid-gap: 5px ;
+        --body-padding: 10px 5px ;
+        --body-column-minmax: 210px, 1fr ;
+
+        --card-padding: 8px 5px ;
+
+        --header-padding: 10px ;
+        
+        --button-padding: 3px 10px ;
+    }
+
+    .main__card {
+        text-align: center;
+    }
+}
+
+@media (min-width: 2400px) {
+    * {
+        font-size: 40px ;
+    }
+
+    :root {
+        --input-border: 3px solid black ;
+        --input-border-radius: 8px ;
+        --input-max-width: 1600px ;
+
+        --body-grid-gap: 20px ;
+        --body-padding: 40px 20px ;
+        --body-column-minmax: 500px, 1fr ;
+
+        --card-padding: 15px ;
+
+        --header-padding: 25px ;
+        
+        --button-padding: 3px 25px ;
+    }
+}
+
+@media (min-width: 3200px) {
+    * {
+        font-size: 60px ;
+    }
+
+    :root {
+        --input-border: 5px solid black ;
+        --input-border-radius: 12px ;
+        --input-max-width: 2300px ;
+
+        --body-grid-gap: 30px ;
+        --body-padding: 50px 30px ;
+        --body-column-minmax: 750px, 1fr ;
+
+        --card-padding: 20px ;
+
+        --header-padding: 35px ;
+        
+        --button-padding: 3px 40px ;
+    }
+}
+
+@media (min-width: 4200px) {
+    * {
+        font-size: 80px ;
+    }
+
+    :root {
+        --input-border: 10px solid black ;
+        --input-border-radius: 25px ;
+        --input-max-width: 2600px ;
+        --input-padding: 6px ;
+        --input-letter-spacing: 5px ;
+
+        --body-grid-gap: 50px ;
+        --body-padding: 70px 40px ;
+        --body-column-minmax: 1000px, 1fr ;
+
+        --card-padding: 40px ;
+
+        --header-padding: 60px ;
+        
+        --button-padding: 3px 60px ;
+    }
+}
+
+@media (min-width: 5500px) {
+    * {
+        font-size: 120px ;
+    }
+
+    :root {
+        --input-border: 10px solid black ;
+        --input-border-radius: 25px ;
+        --input-max-width: 3500px ;
+        --input-padding: 10px ;
+        --input-letter-spacing: 5px ;
+
+        --body-grid-gap: 50px ;
+        --body-padding: 120px 60px ;
+        --body-column-minmax: 1500px, 1fr ;
+
+        --card-padding: 60px ;
+
+        --header-padding: 120px ;
+        
+        --button-padding: 10px 100px ;
+    }
+}
